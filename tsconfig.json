@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "moduleResolution":       "Node",
+        "module":                 "esnext",
+        "target":                 "esnext",
+        "sourceMap":              true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata":  true,
+        "noImplicitAny":          false,
+        "noImplicitThis":         true,
+        "declaration":            true,
+        "outDir":                 "./dist",
+        "lib":                    [
+            "es2017.object",
+            "es2015",
+            "es2017",
+            "esnext"
+        ],
+        "pretty":                 true,
+        "skipLibCheck":           true
+    },
+    "include":         [
+        "./src/**/*.ts"
+, "src/Error/Errors.js", "src/Node/ActionNode.js", "src/Node/BehaviorTreeNodeInterface.js", "src/Node/InverterNode.js", "src/Node/ParallelNode.js", "src/Node/ParentBehaviorTreeNodeInterface.js", "src/Node/RepeatNode.js", "src/Node/SelectorNode.js", "src/Node/SequenceNode.js", "src/Node/UntilFailNode.js", "src/BehaviorTreeBuilder.js", "src/BehaviorTreeStatus.js", "src/index.js", "src/NodeEnumerator.js", "src/Stack.js", "src/StackNode.js", "src/StateData.js"    ]
+}
